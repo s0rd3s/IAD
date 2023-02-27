@@ -1,0 +1,2 @@
+function gauss = my_gauss_gen(m, D)
+gauss = m + randn(m, D)*sqrt(D);

@@ -1,0 +1,36 @@
+clc
+close all
+clear all
+
+V=[1 2 3 4 5]; % Создание вектора
+M=[1 2 3 4 5; 6 7 8 9 10; 11 12 13 14 15]; % Создание матрицы
+% V(3)
+% M(2,3)
+% M(:,3)
+% M(2,:)
+% min(M,[ ],1)
+% min(M,[ ],2)
+% min(min(M))
+% max(M,[ ],2)
+% max(max(M))
+% Ce=[1 2 3; 3 2 1]
+% min(Ce,[ ],1)
+% min(Ce,[ ],2)
+%% task 6 
+% C = zeros(5);
+% min(C,[ ],1)
+% min(C,[ ],2)
+% max(C,[ ],1)
+% max(C,[ ],2)
+% min(min(C))
+% max(max(C))
+%% task 7
+A=[2 1; 3 4];
+B=[4; 11];
+x =inv(A)*B;
+A*x;
+B;
+%% task 8
+A = 8;
+a
+

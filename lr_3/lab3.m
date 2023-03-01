@@ -2,7 +2,7 @@ clc
 close all
 clear all
 
-file = fopen('data6.txt');
+file = fopen('data11.txt');
 X = fscanf(file, '%d', [8 inf])' % объекты и их 8 признаков
 fclose(file);
 

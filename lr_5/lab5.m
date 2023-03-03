@@ -2,7 +2,7 @@ clc
 close all
 clear all
 
-file = fopen('data6.txt');
+file = fopen('data11.txt');
 X = fscanf(file, '%f', [2 inf])';
 fclose(file);
 % X(6:100,:) = []; % удалить строки с 6 по 100, то есть оставить первых 5

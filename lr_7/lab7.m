@@ -2,7 +2,7 @@ clc
 close all
 clear all
 
-file = fopen('Learning_data6.txt', 'r');
+file = fopen('Learning_data11.txt', 'r');
 Learning = fscanf(file, '%f', [8 inf]);
 fclose(file);
 
@@ -20,7 +20,7 @@ net = train(net, Learning); %обучение сети соответсвующ�
 W = sim(net, Learning); % Simulate dynamic system, классификация векторов входов по разработанной нейросети
 Klasters = vec2ind(W); %конвертирует классифицированные объекты в индексы нейронов, какой объект к какому кластеру
 
-file = fopen('PCA_data6.txt', 'r');
+file = fopen('PCA_data11.txt', 'r');
 PCA = fscanf(file, '%f', [2 inf]); % исходные данные в координатах первых двух главных компонент
 fclose(file);
 

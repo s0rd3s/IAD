@@ -2,7 +2,7 @@ clc
 close all
 clear all
 
-xax = fopen('data6.txt','r');
+xax = fopen('data11.txt','r');
 xe = fscanf(xax, '%f', [2 inf])';
 fclose(xax);
 xaxa = xe(:,1);

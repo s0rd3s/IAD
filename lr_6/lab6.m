@@ -2,7 +2,7 @@ clc
 close all
 clear all
 % СПРОСИТЬ ПРО КРИТЕРИЙ ОЦЕНКИ КОЛИЧЕСТВА КЛАСТЕРОВ В 5Й ЛАБ
-file = fopen('data6.txt', 'r');
+file = fopen('data11.txt', 'r');
 X = fscanf(file, '%f', [2 inf])';
 fclose(file);
 x = X(:,1);

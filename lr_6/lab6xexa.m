@@ -14,7 +14,7 @@ xoxo = xoxo(1);
 figure;
 scatter(xaxa, axex, 35);
 
-axaxex = 4; 
+axaxex = 3; 
 xexixoxo = zeros(axaxex, 2); 
 
 for axxax = 1:axaxex

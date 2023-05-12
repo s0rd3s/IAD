@@ -13,7 +13,7 @@ T = [mini(1) maxi(1); mini(2) maxi(2); mini(3) maxi(3); mini(4) maxi(4);
 %Создать нейронную сеть (например, 2x2) на основе карт Кохонена
 razm1 = 2;
 razm2 = 2;
-net = newsom(T, [razm1 razm2]); % для создания самоорганизующейся карты Кохонена
+net = newsom(T, [razm1 razm2], "hextop"); % для создания самоорганизующейся карты Кохонена, hextop задает гексогональную топологию
 net.trainParam.epochs = 100; % one epoch of training is defined as a single presentation of all input vectors to the network
 net = train(net, Learning); %обучение сети соответсвующим набором
 %Классифицировать исходные объекты в кластеры с использованием разработанной нейронной сети

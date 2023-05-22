@@ -2,7 +2,7 @@ clc
 close all
 clear all
 
-[Xplot Yplot] = meshgrid(-30:0.25:30, -30:0.25:30);
+[Xplot Yplot] = meshgrid(-8:0.25:8, -8:0.25:8);
 Zplot = func(Xplot, Yplot);
 surf(Xplot, Yplot, Zplot);
 
@@ -11,8 +11,8 @@ surf(Xplot, Yplot, Zplot);
 N = 100000; % число случайных точек
 M = 2; % размерность поиска
 ksi1 = rand(M, N); 
-A = -30;
-B = 30;
+A = -8;
+B = 8;
 stohaXY = zeros(M, N);
 for k = 1:M
     for i=1:N
